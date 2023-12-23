@@ -40,6 +40,7 @@ const addDiv = (color) => {
     newItem.id = 'div' + cont++;
     newItem.style.width = '200px';
     newItem.style.height = '200px';
+    newItem.style.border = '2px solid black';
     newItem.style.backgroundColor = color;
     container.appendChild(newItem);
 }
